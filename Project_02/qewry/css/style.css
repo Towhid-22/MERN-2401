@@ -16,12 +16,16 @@ body{
     width: 1320px;
     margin: 0 auto;
 }
-
+.container button span{
+    color: white !important;
+}
 /* !================= navbar start ================ */
-#navbar{
+nav{
+    position: absolute !important;
     width: 100%;
-    margin-top: 28px;
-    position: absolute;
+}
+/* .logo{
+    z-index: 100;
 }
 .navWrapper{
     display: flex;
@@ -39,9 +43,12 @@ body{
     font-size: 18px;
     font-weight: 600;
 }
-.nav_items ul li a:hover{
-    color: black;
+    */
+    
+.nav_items a:hover{
+    color: black !important;
 }
+
 /* !================= navbar end ================ */
 
 
@@ -111,6 +118,7 @@ body{
     line-height: 32px;
     color: #fff;
     text-transform: uppercase;
+    width: 100%;
     
 }
 .about_textarea a{
@@ -121,6 +129,9 @@ body{
     text-decoration: none;
     margin-top: 66px;
     display: inline-block;
+}
+#about .about_image img{
+    width: 636px;
 }
 /* !================= about end ================ */
 
@@ -256,7 +267,6 @@ body{
     letter-spacing: -0.3px;
     color: #fff;
     width: 405px;
-    margin-top: 82px;
     margin-bottom: 49px;
 }
 .footer_bottom_left a{
@@ -338,6 +348,9 @@ body{
     line-height: 32px;
     text-align: center;
     margin: 153px 0 30px 0;
+}
+.footer_items{
+    margin-top: 80px;
 }
 /* !================= footer end ================ */
 
