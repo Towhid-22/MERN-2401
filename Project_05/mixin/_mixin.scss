@@ -1,0 +1,11 @@
+// button design
+@mixin btn($theme: #1BBF00){
+  background: $theme;
+  padding: 14px 28px;
+  color: $text_color;
+  font-weight: 600;
+  font-size: $font_size;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 100px;
+  text-decoration: none;
+}

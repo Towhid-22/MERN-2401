@@ -1,0 +1,19 @@
+nav{
+  background: $base_color;
+  ul{
+    li{
+      .nav-link{
+        font-size: $font_size;
+        font-family: "Open Sans", sans-serif;
+        color: $text_color;
+        font-weight: 600;
+        &:hover{
+          color: #1BBF00;
+        }
+      }
+    }
+  }
+  .contactBtn{
+    @include btn;
+  }
+}
