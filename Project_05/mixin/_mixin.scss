@@ -1,5 +1,5 @@
 // button design
-@mixin btn($theme: #1BBF00){
+@mixin btn($theme: #1bbf00, $mt: 0, $mr: 0, $hv: false, $border: 0) {
   background: $theme;
   padding: 14px 28px;
   color: $text_color;
@@ -8,4 +8,13 @@
   font-family: "Open Sans", sans-serif;
   border-radius: 100px;
   text-decoration: none;
+  display: inline-block;
+  margin-top: $mt;
+  margin-right: $mr;
+  border: $border;
+  @if $hv {
+    &:hover {
+      background: $green_color;
+    }
+  }
 }
