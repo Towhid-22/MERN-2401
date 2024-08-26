@@ -258,6 +258,9 @@ nav .contactBtn {
 #services .service_items:hover a {
   color: #F4F4F5;
 }
+#services .service_items:hover a::after {
+  background: rgba(255, 255, 255, 0.3);
+}
 #services .service_items h4 {
   font-size: 29px;
   font-weight: 700;
@@ -594,12 +597,6 @@ nav .contactBtn {
   padding-top: 157px;
   padding-bottom: 54px;
 }
-#footer .footer_wrapper {
-  display: flex;
-}
-#footer .desc_area {
-  width: 40%;
-}
 #footer .desc_area img {
   width: 135px;
   height: 73px;
@@ -611,24 +608,18 @@ nav .contactBtn {
   font-weight: 400;
   line-height: 180%;
   color: rgba(254, 254, 254, 0.9);
-  width: 450px;
 }
-#footer .footer_item {
-  width: 60%;
-  display: flex;
-  justify-content: space-between;
-}
-#footer .footer_item ul h4 {
+#footer ul h4 {
   font-size: 24px;
   font-weight: 600;
   line-height: 140%;
   color: #fefefe;
   margin-bottom: 48px;
 }
-#footer .footer_item ul li {
+#footer ul li {
   margin-bottom: 30px;
 }
-#footer .footer_item ul li a {
+#footer ul li a {
   font-family: "Nunito", sans-serif;
   font-size: 20px;
   line-height: 120%;
