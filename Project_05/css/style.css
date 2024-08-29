@@ -242,7 +242,7 @@ nav .contactBtn {
   padding: 46px;
   margin-top: 20px;
   border-radius: 20px;
-  transition: 0.6s;
+  transition: 0.4s;
   height: 395px;
 }
 #services .service_items:hover {
@@ -260,6 +260,8 @@ nav .contactBtn {
 }
 #services .service_items:hover a::after {
   background: rgba(255, 255, 255, 0.3);
+  width: 120px;
+  border-radius: 20px;
 }
 #services .service_items h4 {
   font-size: 29px;
@@ -645,5 +647,4 @@ nav .contactBtn {
   font-weight: 400;
   line-height: 180%;
   color: rgba(254, 254, 254, 0.9);
-  margin-left: 60px;
 }/*# sourceMappingURL=style.css.map */
