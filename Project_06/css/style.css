@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  width: 1170px;
+}
+
+#navbar {
+  background: #fff;
+}
+#navbar ul li a {
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #00413D;
+  padding-left: 48px;
+  transition: 0.4s;
+}
+#navbar ul li a:hover {
+  color: #e5745d;
+}
+#navbar ul li .first_child {
+  padding-left: 0px;
+}
+#navbar .buttons {
+  font-family: "Jost", sans-serif;
+  background: #e5745d;
+  border: none;
+  padding: 21px 39px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 12px;
+  color: #FFFFFF;
+  margin-top: 0;
+}
+
+#banner {
+  padding: 221px 0;
+  background: #00413D;
+}
+#banner .text_area h1 {
+  font-family: "Vollkorn", serif;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 110px;
+  color: #FFFFFF;
+}
+#banner .text_area p {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  max-width: 670px;
+  margin-top: 14px;
+}
+#banner .text_area p span {
+  color: #FFFFFF;
+}
+#banner .text_area .buttons {
+  font-family: "Jost", sans-serif;
+  background: #e5745d;
+  border: none;
+  padding: 21px 39px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 12px;
+  color: #FFFFFF;
+  margin-top: 50px;
+}
+
+#service {
+  padding: 220px 0 120px 0;
+}
+#service .service {
+  text-align: center;
+}
+#service .service p {
+  font-family: "Vollkorn", serif;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2%;
+  color: #e5745d;
+}
+#service .service h2 {
+  font-family: "Vollkorn", serif;
+  font-size: 50px;
+  line-height: 60px;
+  color: #00413D;
+  font-weight: 500;
+  margin-top: 0;
+  max-width: 517px;
+  margin: 0 auto;
+}
+#service .service .items {
+  text-align: left;
+  margin-top: 40px;
+}
+#service .service .items h4 {
+  font-family: "Vollkorn", serif;
+  font-size: 24px;
+  font-weight: 900;
+  color: #00413D;
+  margin-top: 26px;
+}
+#service .service .items p {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  color: rgba(0, 65, 61, 0.7);
+  line-height: 24px;
+  font-weight: 400;
+  margin-top: 15px;
+  width: 245px;
+}
+#service .service .items .icons {
+  color: #00413D;
+}
+#service .service .items .icons:hover {
+  color: #e5745d;
+}/*# sourceMappingURL=style.css.map */

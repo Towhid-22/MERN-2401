@@ -1,0 +1,35 @@
+#service{
+  padding: 220px 0 120px 0;
+  .service{
+    text-align: center;
+    p{
+      @include mini;
+    }
+    h2{
+      @include headings;
+      max-width: 517px;
+      margin: 0 auto;
+    }
+    .items{
+      text-align: left;
+      margin-top: 40px;
+      h4{
+        font-family: "Vollkorn", serif;
+        font-size: 24px;
+        font-weight: 900;
+        color: $common_color;
+        margin-top: 26px;
+      }
+      p{
+        @include para ($mt: 15px);
+        width: 245px;
+      }
+      .icons{
+        color: $common_color;
+        &:hover{
+          color: $secondary_color;
+        }
+      }
+    }
+  }
+}
