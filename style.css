@@ -1,0 +1,36 @@
+.container{
+  width: 1170px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+.div_wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left{
+  width: 50%;
+  border: 1px solid teal;
+}
+.right{
+  width: 50%;
+  margin-top: 30px;
+  position: relative;
+
+}
+.right .images{
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+.right .images img{
+  /* width: 0px; */
+  width: 500px;
+}
+.right .images .image2 {
+  width: 432px;
+  height: 466px;
+  position: absolute;
+  left: 43px;
+  top: 0;
+}
