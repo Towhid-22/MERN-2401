@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progress</title>
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+    .skill_container{
+      background: gray;
+      width: 500px;
+      padding: 20px;
+    }
+    .skill_container li{
+      list-style-type: none;
+      margin: 50px 0;
+      font-weight: 900;
+      text-transform: uppercase;
+      position: relative;
+    }
+    .skill_container li::before{
+      content: '';
+      position: absolute;
+      background: rgb(170, 167, 173);
+      width: 100%;
+      height: 25px;
+      top: 30px;
+      left: 0;
+      border-radius: 1000px;
+    }
+    .skill_container li::after{
+      content: '';
+      position: absolute;
+      background: rgb(249, 249, 250);
+      width: 0;
+      height: 25px;
+      top: 30px;
+      left: 0;
+      border-radius: 1000px;
+      animation-duration: 3s;
+      animation-timing-function: linear;
+      animation-delay: 2s;
+      animation-iteration-count: 1;
+      animation-direction: forward;
+      animation-fill-mode: forwards;
+    }
+    .skill_container li.html::after{
+      animation-name: html;
+    }
+    @keyframes html{
+      to{
+        width: 90%;
+      }
+    }
+    .skill_container li.css::after{
+      animation-name: css;
+    }
+    @keyframes css{
+      to{
+        width: 80%;
+        background: orange;
+      }
+    }
+    .skill_container li.js::after{
+      animation-name: js;
+    }
+    @keyframes js{
+      to{
+        width: 70%;
+        background: red;
+      }
+    }
+    .skill_container li.bootstrap::after{
+      animation-name: bootstrap;
+    }
+    @keyframes bootstrap{
+      to{
+        width: 85%;
+        background: teal ;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="skill_container">
+    <ul>
+      <li class="html">HTML</li>
+      <li class="css">CSS</li>
+      <li class="js">JS</li>
+      <li class="bootstrap">Bootstrap</li>
+      <li class="java">Java</li>
+      <li class="cplus">C++</li>
+    </ul>
+  </div>
+</body>
+</html>
