@@ -1,1 +1,261 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+#navbar {
+  background: #fff8f3;
+}
+#navbar .navbar .nav-item {
+  margin-right: 53px;
+}
+#navbar .navbar .nav-item .nav-link {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #474747;
+}
+#navbar .navbar .buttons {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  width: 150px;
+  height: 64px;
+  border-radius: 5px;
+  background: #FD6E0A;
+  border: none;
+}
+
+#banner {
+  background: #fff8f3;
+  padding-top: 161px;
+  position: relative;
+}
+#banner .banner h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+}
+#banner .banner h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 85px;
+  font-weight: 700;
+  color: #181818;
+}
+#banner .banner p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 585px;
+  line-height: 30px;
+  color: #757575;
+}
+#banner .banner button {
+  background: transparent;
+  width: 200px;
+  height: 64px;
+  border-radius: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FD6E0A;
+  border: none;
+  margin-right: 10px;
+  border: 1px solid #FD6E0A;
+  transition: 0.4s;
+}
+#banner .banner button:hover {
+  background: #FD6E0A;
+  color: white;
+}
+#banner .banner button:hover i {
+  color: white;
+}
+#banner .banner button i {
+  font-weight: 700;
+  color: #FD6E0A;
+  padding-right: 10px;
+}
+#banner .right img {
+  height: 584px;
+  width: 676px;
+  z-index: 999;
+}
+#banner .bannerOne {
+  position: absolute;
+  top: -40px;
+  left: 0;
+}
+#banner .bannerTwo {
+  width: 1036px;
+  height: 518px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#about {
+  margin: 130px 0;
+}
+#about .about {
+  padding: 130px 0;
+  background: #FFF8F3;
+  border-radius: 10px;
+  text-align: center;
+}
+#about .about h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  font-weight: 700px;
+  color: #181818;
+}
+#about .about p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  width: 827px;
+  margin: 0 auto;
+  padding: 30px 0;
+  color: #474747;
+}
+#about .about .address {
+  display: flex;
+}
+#about .about .address .name {
+  width: 25%;
+}
+#about .about .address .name h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #757575;
+}
+#about .about .address .name h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #474747;
+}
+
+#service {
+  padding-bottom: 130px;
+}
+#service .service {
+  text-align: center;
+}
+#service .service h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 30px;
+}
+#service .service p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 909px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+#service .cards {
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  text-align: left;
+  padding: 30px;
+}
+#service .cards img {
+  margin-bottom: 30px;
+}
+#service .cards h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 20px;
+}
+#service .cards p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #757575;
+  width: 200px;
+  text-align: left;
+}
+
+#resume {
+  text-align: center;
+}
+#resume h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 113px;
+}
+#resume button {
+  margin-top: 50px;
+  background: transparent;
+  width: 200px;
+  height: 64px;
+  border-radius: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  background: #FD6E0A;
+  color: #fff;
+  border: none;
+  margin-right: 10px;
+  transition: 0.4s;
+}
+#resume button i {
+  font-weight: 700;
+  color: #fff;
+  padding-right: 10px;
+}
+#resume .resume {
+  text-align: left;
+}
+#resume .resume .summary h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #474747;
+}
+#resume .resume .summary h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #474747;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+#resume .resume .summary h5 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+  padding-bottom: 20px;
+}
+#resume .resume .summary p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+  width: 511px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #D1D1D1;
+}/*# sourceMappingURL=style.css.map */

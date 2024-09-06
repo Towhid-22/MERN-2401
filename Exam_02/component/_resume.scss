@@ -1,0 +1,66 @@
+#resume{
+  text-align: center;
+  h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    color: $dark_color;
+    margin-bottom: 113px;
+  }
+  button {
+    margin-top: 50px;
+    background: transparent;
+    width: 200px;
+    height: 64px;
+    border-radius: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background: #FD6E0A;
+    color: #fff;
+    border: none;
+    margin-right: 10px;
+    transition: 0.4s;
+    i {
+      font-weight: 700;
+      color: #fff;
+      padding-right: 10px;
+    }
+  }
+  .resume{
+    text-align: left;
+    .summary{
+      h3{
+        font-family: "Open Sans", sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        color: $common_color;
+      }
+      h4{
+        font-family: "Open Sans", sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        color: $common_color;
+        padding-top: 30px;
+        padding-bottom: 10px;
+      }
+      h5{
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        color: $para_color;
+        padding-bottom: 20px;
+      }
+      p{
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: $para_color;
+        width: 511px;
+        padding-bottom: 30px;
+        border-bottom: 2px solid #D1D1D1;
+      }
+    }
+  }
+}

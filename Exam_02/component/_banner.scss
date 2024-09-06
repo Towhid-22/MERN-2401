@@ -1,0 +1,70 @@
+#banner {
+  background: #fff8f3;
+  padding-top: 161px;
+  position: relative;
+  .banner {
+    h3 {
+      font-family: "Open Sans", sans-serif;
+      font-size: 45px;
+      font-weight: 600;
+      color: $common_color;
+    }
+    h1 {
+      font-family: "Open Sans", sans-serif;
+      font-size: 85px;
+      font-weight: 700;
+      color: #181818;
+    }
+    p {
+      font-family: "Open Sans", sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      max-width: 585px;
+      line-height: 30px;
+      color: #757575;
+    }
+    button {
+      background: transparent;
+      width: 200px;
+      height: 64px;
+      border-radius: 5px;
+      font-family: "Open Sans", sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      color: #FD6E0A;
+      border: none;
+      margin-right: 10px;
+      border: 1px solid #FD6E0A;
+      transition: 0.4s;
+      &:hover{
+        background: $btn_color;
+        color: white;
+      }
+      &:hover i{
+        color: white;
+      }
+      i {
+        font-weight: 700;
+        color: #FD6E0A;
+        padding-right: 10px;
+      }
+    }
+  }
+  .right img {
+    height: 584px;
+    width: 676px;
+    z-index: 999;
+  }
+  .bannerOne {
+    position: absolute;
+    top: -40px;
+    left: 0;
+  }
+  .bannerTwo {
+    width: 1036px;
+    height: 518px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}

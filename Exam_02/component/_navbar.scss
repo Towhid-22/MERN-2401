@@ -1,0 +1,25 @@
+#navbar{
+  background: #fff8f3;
+  .navbar{
+    .nav-item{
+      margin-right: 53px;
+      .nav-link{
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        color: $common_color;
+      }
+    }
+    .buttons{
+      font-family: "Open Sans", sans-serif;
+      color: white;
+      font-size: 20px;
+      font-weight: 700;
+      width: 150px;
+      height: 64px;
+      border-radius: 5px;
+      background: $btn_color;
+      border: none;
+    }
+  }
+}
